@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="AkeAndroid">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/AkeAndroid.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
