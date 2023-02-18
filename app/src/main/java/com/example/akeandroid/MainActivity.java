@@ -1,6 +1,8 @@
 package com.example.akeandroid;
 
 import androidx.appcompat.app.AppCompatActivity;
+
+import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
@@ -20,12 +22,14 @@ public class MainActivity extends AppCompatActivity {
         Log.w(TAG, "This is a warn log.");
         Log.e(TAG, "This is a error log.");
 
-        Button button = (Button) findViewById(R.id.button2);
-        button.setOnClickListener(new View.OnClickListener() {
+        Button button2 = (Button) findViewById(R.id.button2);
+        button2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v){
             Log.i(TAG, "ButtonClicked");
-        }
+            Intent intent = new Intent(MainActivity.this, SecondActivity.class);
+            startActivity(intent);
+            }
         });
     }
 }
