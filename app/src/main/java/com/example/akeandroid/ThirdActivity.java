@@ -14,7 +14,7 @@ public class ThirdActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_third);
 
-        Button Btn = (Button) findViewById(R.id.button4);
+        Button Btn = (Button) findViewById(R.id.button2);
         Btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
