@@ -14,5 +14,13 @@ public class FourthActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_fourth);
 
+        Button Btn = (Button) findViewById(R.id.button3);
+        Btn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(FourthActivity.this, FifthActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

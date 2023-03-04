@@ -7,7 +7,7 @@
     android:background="#00FFEB3B"
     android:backgroundTint="#FFEB3B"
     tools:context=".MainActivity">
-
+0
     <Button
         android:id="@+id/button2"
         android:layout_width="wrap_content"
