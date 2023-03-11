@@ -28,7 +28,15 @@ public class MainActivity2 extends AppCompatActivity {
 
             @Override
             public void onClick(View v) {
+                loadFragment(new FragmentA());
+            }
+        });
 
+        secondFragment.setOnClickListener(new View.OnClickListener() {
+
+            @Override
+            public void onClick(View v) {
+                loadFragment(new FragmentB());
             }
         });
     }
