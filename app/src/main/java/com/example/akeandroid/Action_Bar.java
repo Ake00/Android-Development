@@ -31,7 +31,7 @@ public class Action_Bar extends AppCompatActivity {
         actionBar.setIcon(R.mipmap.ic_launcher);
 
         actionBar.setDisplayUseLogoEnabled(true);
-        actionBar.setDisplayUseLogoEnabled(true);
+        actionBar.setDisplayShowHomeEnabled(true);
     }
  @Override
  public boolean onCreateOptionsMenu(Menu menu)
