@@ -27,8 +27,8 @@ public class MainActivity extends AppCompatActivity
         dbHelper.deleteAllData();
 
         //Insert data
-        dbHelper.insertData("Roman", 38);
-        dbHelper.insertData("Solo", 30);
+        dbHelper.insertData("Seulgi", 38);
+        dbHelper.insertData("Miyeon", 30);
 
         //Get data
         getData();
